@@ -1,1 +1,1 @@
-web: gunicorn geo_location.wsgi
+web: gunicorn geo_tagged.wsgi --log-file -
